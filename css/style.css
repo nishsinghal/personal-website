@@ -1,0 +1,606 @@
+/*----------Reset------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*--------Main styling----------*/
+
+body{
+	font-family: "Lato";
+  font-size: 100%;
+  line-height: 1.2;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+h1{
+  font-size: 3.75em;
+  padding: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 3em;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+h3{
+  font-size: 1.5em;
+  margin: 50px 0 40px;
+  text-align: center;
+}
+
+p{
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+
+p + p{
+  margin-top: 27px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+header{
+	background-color: #000000;
+	height: auto;
+  padding: 20px 0;
+	color: #fff;
+	-webkit-box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow:         2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+  border: none !important;
+  width: 45%;
+  display: inline-block;
+  margin-left: -4px;
+/*  background: url(../img/N-logo4.png) no-repeat;
+  background-size: contain;
+  padding: 22px;*/
+}
+
+/*@media all and (max-width: 560px){
+  .logo{
+    background: url(../img/N-parts-11.png) no-repeat;
+    background-size: contain;
+  }
+}*/
+
+.logo img{
+  max-width: 290px;
+  width: 100%;
+}
+
+.width-960{
+	width: 90%;
+	max-width: 960px;
+	margin: auto;
+}
+
+.padding{
+  padding: 3.75em 0; /* ~60px padding at full-width */
+}
+
+.main{
+	text-transform: uppercase;
+  width: 92%;
+  margin: auto;
+}
+
+.nav, .social-links{
+  text-align: right;
+}
+
+.nav{
+  width: 55%;
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 8px 0;
+  font-size: 14px;
+}
+
+.nav a + a {
+	margin-left: 15px;
+}
+
+.nav a:hover, .currentlink{
+  border-bottom: 1px solid;
+}
+
+.home-icons{
+  vertical-align: baseline;
+}
+
+.home-icons img{
+  max-width: 100%;
+  padding: 40px 10%;
+  vertical-align: baseline;
+}
+
+.filter ul{
+	margin: 0 auto;
+  text-align: center;
+}
+
+.filter li:hover{
+	background: #f3ab3a;
+}
+
+.filter li{
+	text-transform: uppercase;
+	background: #c2c2c2;
+	display: inline-block;
+	padding: 12px 16px;
+}
+
+.green-bg{
+  background: #00A99D url(../img/home-top.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; 
+	z-index: -999;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+  height: 100%;
+}
+
+.grey-bg{
+  background: url(../img/grey-bg4.png) #f2f2f2;
+  /*background-size: 40%;*/
+  z-index: -999;
+  color: #000;
+  border-bottom: 1px solid #dadada; 
+}
+
+.concerto-header{
+  background: url(../img/concerto-header3.jpg) no-repeat 70% top;
+}
+
+.mfcomm-header{
+  background: url(../img/mfcomm-header.jpg) no-repeat 75% top;  
+}
+
+.valemount-header{
+  background: url(../img/valemount/valemount-header2.jpg) no-repeat 75% top;  
+}
+
+.sportslinx-header{
+  background: url(../img/sports-linx/sportslinx-header.jpg) no-repeat 75% top;  
+}
+
+.exclusive-header{
+  background: url(../img/exclusive-header.jpg) no-repeat 75% top;  
+}
+
+.newsweek-header{
+  background: url(../img/newsweek-header.jpg) no-repeat 75% top;
+}
+
+.about-header{
+  background: url(../img/about8.jpg) no-repeat 75% top; 
+}
+
+.header{
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: -10;
+}
+
+.header:after {
+content: "";
+background: url(../img/stripe-15.png) repeat;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+}
+
+.spacer{
+  padding-top: 350px; 
+}
+
+.overlay{
+  background: rgba(0,0,0,0.5);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 85%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(85%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 85%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 85%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 85%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 85%,rgba(0,0,0,0.65) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+  text-align: left;
+  padding: 30px 0;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.overlay h3{
+  margin: -5px 0 10px;
+  text-align: left;
+}
+
+.caption{
+	text-transform: uppercase;
+  margin-top: 0;
+}
+
+.col-third{
+	width: 30%;
+	display: inline-block;
+}
+
+.col-half{
+	width: 50%;
+	display: inline-block;
+  margin-left: -4px;
+}
+
+.brief{
+  padding: 0 0 60px;
+/*  background: #f2f2f2;
+  border: 1px dashed #dadada;*/
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1046px;
+/*  max-width: 700px;*/
+}
+
+.brief p, .brief h3{
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 9.4%;
+}
+
+.brief img, .line{
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 600px;
+}
+
+.brief h3{
+  border-bottom: 1px solid #c2c2c2;
+  padding-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.project p{
+  margin: 20px 0;
+}
+
+@media all and (max-width: 750px){
+  .brief > .col-half{
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 600px){
+  .brief p, .brief h3{
+   padding: 0 2%;
+  }
+  .brief h3{
+    padding-top: 60px;
+  }   
+}
+
+@media all and (max-width: 440px){
+  .brief p{
+   font-size: 100%;
+  }   
+}
+
+.work{
+	background-color: #d7d7d7;
+}
+
+.me{
+	float: left;
+	margin-right: 5.2083%;
+	margin-bottom: 2.0833%;
+	border: 1px solid orange;
+	border-radius: 5px;
+  width: 38%;
+  max-width: 300px;
+}
+
+.skill{
+  background: #f2f2f2;
+  border: #dadada dashed 1px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.purple-bg{
+	background: #7F00FF url(../img/purple-bg.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: -999;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff; 
+	font-weight: 300;
+}
+
+.purple-bg p {
+	font-size: 24px;
+}
+
+.contact-icon{
+  text-decoration: none;
+}
+
+.contact-icon + .contact-icon {
+  margin-left: 10px;
+}
+
+.contact-icon img{
+	border: 2px white solid;
+	border-radius: 50%;
+	padding: 1%;
+	margin: 20px 0 40px;
+}
+
+.contact-icon img:hover{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+form{
+	text-align: left;
+}
+
+form div + div{
+	margin-top: 10px;
+}
+
+label{
+	/* To make sure that all label have the same size and are properly align */
+    display: inline-block;
+    text-align: right;
+	width: 16%;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+input, textarea{
+	 /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em "Lato", sans-serif;
+
+    /* To give the same size to all text fields */
+	  width: 81%;
+    height: 45px;
+
+    /* To harmonize the look & feel of text field border */
+    border-right: 2px solid #581fcc;
+    border-bottom: 2px solid #9580ff;
+    border-left: 2px solid #9580ff;
+    border-top: 2px solid #581fcc;
+    border-radius:3px;
+    padding: 0.6em 0.8em;
+    color: #696969;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 7em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on every browser */
+    resize: vertical;
+}
+
+.button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 16%; /* same size as the label elements */
+}
+button, .button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+	background: #f3ab3a;
+	border-right: 1px solid #ffcc66;
+  border-bottom: 3px solid #d99a34;
+  border-left: 3px solid #d99a34;
+  border-top: 1px solid #ffcc66;
+  border-radius:3px;
+  padding: 0.6em 0.8em;
+  font-size: 18px;
+  text-transform: uppercase;
+  float: right;
+}
+
+button:hover, .button:hover{
+	background: #ffcc66;
+	border-left: 1px solid #ffcc66;
+  border-top: 3px solid #d99a34;
+  border-right: 3px solid #d99a34;
+  border-bottom: 1px solid #ffcc66;
+}
+
+.page{
+  width: 100%;
+  padding: 5.20833333333%;
+  background: #f2f2f2;
+}
+
+.page:last-child{
+  margin-bottom: 50px;
+}
+
+footer{
+	background-color: #252525;
+	color: #fff;
+	font-size: 12px;
+}
+
+footer p{
+  line-height: 40px;
+}
+
+.social-links{
+  margin: 0;
+}
+
+footer a{
+	text-align: right;
+  text-decoration: none;
+}
+
+footer a + a {
+	margin-left: 5px;
+}
+
+.right{
+	float: right;
+}
+
+footer img{
+	background: #363636;
+}
+
+footer img:hover{
+	background: #454545;
+}
+
+.title{
+  text-align:center;
+  width: 100%;
+  margin: 10px 0 0;
+  line-height: 1.2;
+}
+
+.workcontainer{
+max-width: 90%;
+margin: 50px auto 0;
+text-align: center;
+}
+
+.piece img{
+  width:100%;
+  padding: 5px;
+  transition: opacity 0.2s;
+}
+
+.piece:hover .info{
+  color: #f3ab3a;
+}
+
+.piece:hover img {
+  opacity: 0.7;
+}
+
+.piece{
+  width:100%;
+  min-width: 250px;
+  max-width: 300px;
+  display:inline-block;
+  margin-right: 11px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 300;
+  background: #ffffff;
+  font-size: 1em;
+}
+
+.piece a:link, .piece a:visited{
+  color: #000000;
+}
+
+.piece h3 {
+  color: #555555;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+  font-size: 1em;
+}
+
+.info{
+  padding: 20px 25px;
+  line-height: 1.5;
+  border-bottom: 2px solid #dadada;
+  min-height: 140px;
+}
+
+@media all and (max-width: 500px){
+	.logo, .nav, .col-half{
+    width: 100%;
+  }
+  .nav, footer, .social-links{
+  text-align: center;
+  }
+  .logo img{
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+  max-width: 100%;
+  }
+  .home-icons, .caption{
+    display: none;
+  }
+  body{
+    font-size: 90%;
+  }
+}
+
+@media all and (min-width: 780px){
+  .nav a + a {
+  margin-left: 35px;
+  }
+  .nav a{
+    font-size: 16px;
+  }
+}
