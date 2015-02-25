@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
 	<title>Nishita Singhal - Digital Designer</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="shortcut icon" href="img/favicon.png">
@@ -51,28 +52,28 @@
 		<div class="workcontainer">
 			<div class="piece">
 				<a href="newsweek-landing-page.php"><img src="./img/newsweek-thumb.jpg">
-				<div class="info"><h3 class="title">Newsweek</h3></a>
-				<p>Landing page design for a news magazine</p></div>
+				<div class="info"><h3 class="title">Newsweek</h3>
+				<p>Landing page design for a news magazine</p></div></a>
 			</div>
 			<div class="piece">
 				<a href="mfcomm.php"><img src="./img/mfcomm-thumb2.jpg">
-				<div class="info"><h3 class="title">MF Communications</h3></a>
-				<p>Homepage redesign for a telecommunications company</p></div>
+				<div class="info"><h3 class="title">MF Communications</h3>
+				<p>Homepage redesign for a telecommunications company</p></div></a>
 			</div>
 			<div class="piece">
 				<a href="exclusive-training.php"><img src="./img/exclu-thumb.jpg">
-				<div class="info"><h3 class="title">Exclusive Training Richmond</h3></a>
-				<p>Homepage redesign for an exercise studio</p></div>
+				<div class="info"><h3 class="title">Exclusive Training Richmond</h3>
+				<p>Homepage redesign for an exercise studio</p></div></a>
 			</div>
 			<div class="piece">
 				<a href="concerto.php"><img src="./img/concerto-thumb.jpg">
-					<div class="info"><h3 class="title">Concerto</h3></a>
-				<p>Homepage concept for a management consultancy</p></div>
+					<div class="info"><h3 class="title">Concerto</h3>
+				<p>Homepage concept for a management consultancy</p></div></a>
 			</div>
 			<div class="piece">
 				<a href="Valemount.php"><img src="./img/valemount/valemount-thumb.jpg">
-					<div class="info"><h3 class="title">Valemount</h3></a>
-				<p>Website design for a construction company</p></div>
+					<div class="info"><h3 class="title">Valemount</h3>
+				<p>Website design for a construction company</p></div></a>
 			</div>
 		</div>
 	</section>
