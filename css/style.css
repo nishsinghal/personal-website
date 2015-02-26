@@ -512,31 +512,10 @@ footer img:hover{
 	background: #454545;
 }
 
-.title{
-  text-align:center;
-  width: 100%;
-  margin: 10px 0 0;
-  line-height: 1.2;
-}
-
 .workcontainer{
-max-width: 90%;
-margin: 50px auto 0;
-text-align: center;
-}
-
-.piece img{
-  width:100%;
-  padding: 5px;
-  transition: opacity 0.2s;
-}
-
-.piece:hover .info{
-  color: #f3ab3a;
-}
-
-.piece:hover img {
-  opacity: 0.7;
+  max-width: 90%;
+  margin: 50px auto 0;
+  text-align: center;
 }
 
 .piece{
@@ -553,11 +532,25 @@ text-align: center;
 }
 
 .piece a:link, .piece a:visited{
-  color: #000000;
+  color: #555555;
+}
+
+.piece:hover a{
+  color: #f3ab3a;
+}
+
+.piece:hover img {
+  opacity: 0.7;
+}
+
+.info{
+  padding: 20px 25px;
+  line-height: 1.5;
+  border-bottom: 2px solid #dadada;
+  min-height: 145px;
 }
 
 .piece h3 {
-  color: #555555;
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
@@ -565,11 +558,10 @@ text-align: center;
   font-size: 1em;
 }
 
-.info{
-  padding: 20px 25px;
-  line-height: 1.5;
-  border-bottom: 2px solid #dadada;
-  min-height: 140px;
+.piece img{
+  width:100%;
+  padding: 5px;
+  transition: opacity 0.2s;
 }
 
 @media all and (max-width: 500px){
