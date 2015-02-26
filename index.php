@@ -3,7 +3,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<title>Nishita Singhal - Digital Designer</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 	<link rel="shortcut icon" href="img/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script>
@@ -66,9 +66,13 @@
 				<p>Homepage redesign for an exercise studio</p></div></a>
 			</div>
 			<div class="piece">
-				<a href="concerto.php"><img src="./img/concerto-thumb.jpg">
-					<div class="info"><h3 class="title">Concerto</h3>
-				<p>Homepage concept for a management consultancy</p></div></a>
+				<a href="concerto.php">
+					<img src="./img/concerto-thumb.jpg">
+					<div class="info">
+						<h3 class="title">Concerto</h3>
+						<p>Homepage concept for a management consultancy</p>
+					</div>
+				</a>
 			</div>
 			<div class="piece">
 				<a href="Valemount.php"><img src="./img/valemount/valemount-thumb.jpg">
